@@ -1,0 +1,70 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(140deg, #33ccff, #4dff4d, #00e673);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    padding: 50px;
+}
+
+.wrapper{
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.4);
+    height: 250px;
+    width: 500px;
+    padding: 20px 30px;
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(35, 35, 35, 0.2);
+}
+
+.text{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bool{
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background: rgba(120, 230, 123, 0.9);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px rgba(35, 35, 35, 0.2);
+    color: #fff;
+    margin: 7% 10%;
+    flex-basis: 90px;
+    padding: 28px;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+.bool:hover{
+    background: inherit;
+    color: inherit;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
